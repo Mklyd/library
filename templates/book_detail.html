@@ -1,0 +1,12 @@
+<!-- postgres_app/templates/book_detail.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ book.title }}</h1>
+  <p><strong>Author:</strong> {{ book.author }}</p>
+  <p><strong>Publisher:</strong> {{ book.publisher }}</p>
+  <p><strong>Publication Date:</strong> {{ book.pub_date }}</p>
+  <p><strong>Description:</strong> {{ book.description }}</p>
+<p><a href="{% url 'book_list' %}"></a></p>
+{% endblock %}

@@ -1,0 +1,7 @@
+book/migrations
+book/__pycache__
+
+core/migrations
+core/__pycache__
+
+env
